@@ -23,24 +23,26 @@
   },
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "sass": "^1.83.0",
+    "scss": "^0.2.4",
+    "tslib": "^2.8.1",
+    "typed-scss-modules": "^8.0.1",
+    "typescript": "^5.7.2"
+  },
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^25.0.8",
-    "@rollup/plugin-node-resolve": "^15.2.3",
-    "@rollup/plugin-terser": "^0.4.4",
-    "@rollup/plugin-typescript": "^11.1.6",
-    "@types/react": "^18.3.3",
-    "react": "^18.3.1",
-    "react-router-dom": "^6.23.1",
-    "rollup": "^4.22.4",
+    "rollup": "^4.29.1",
     "rollup-plugin-dts": "^6.1.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "rollup-plugin-postcss": "^4.0.2",
-    "rollup-plugin-sass": "^1.12.22",
-    "rollup-plugin-scss": "^3.0.0",
-    "sass": "^1.77.4",
-    "scss": "^0.2.4",
-    "tslib": "^2.6.2",
-    "typed-scss-modules": "^8.0.1",
-    "typescript": "^5.4.5"
+    "rollup-plugin-sass": "^1.14.0",
+    "rollup-plugin-scss": "^4.0.1",
+    "@types/react": "^19.0.2",
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^12.1.2"
   }
 }
